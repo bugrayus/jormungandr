@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jormungandr", "Jormungandr\Jormungandr.csproj", "{F330D657-082A-4DBA-B6E9-7F06298D7667}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jormungandr.Application", "Jormungandr.Application\Jormungandr.Application.csproj", "{14E0164A-48D8-49BB-BD94-30170868DE97}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F330D657-082A-4DBA-B6E9-7F06298D7667}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F330D657-082A-4DBA-B6E9-7F06298D7667}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F330D657-082A-4DBA-B6E9-7F06298D7667}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F330D657-082A-4DBA-B6E9-7F06298D7667}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E0164A-48D8-49BB-BD94-30170868DE97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E0164A-48D8-49BB-BD94-30170868DE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E0164A-48D8-49BB-BD94-30170868DE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E0164A-48D8-49BB-BD94-30170868DE97}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03029C80-D15E-4375-BD76-9A0D55909713}
+	EndGlobalSection
+EndGlobal
