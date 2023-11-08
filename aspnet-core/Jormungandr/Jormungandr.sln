@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jormungandr", "Jormungandr\Jormungandr.csproj", "{F330D657-082A-4DBA-B6E9-7F06298D7667}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jormungandr", "Jormungandr\Jormungandr.csproj", "{F330D657-082A-4DBA-B6E9-7F06298D7667}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jormungandr.Application", "Jormungandr.Application\Jormungandr.Application.csproj", "{14E0164A-48D8-49BB-BD94-30170868DE97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jormungandr.Application", "Jormungandr.Application\Jormungandr.Application.csproj", "{14E0164A-48D8-49BB-BD94-30170868DE97}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jormungandr.Core", "Jormungandr.Core\Jormungandr.Core.csproj", "{A26AD5D1-C253-40E7-BFD2-F63247F327FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jormungandr.Shared", "Jormungandr.Shared\Jormungandr.Shared.csproj", "{1BDEED74-67D7-48E1-B811-57B67357658A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jormungandr.DataAccess", "Jormungandr.DataAccess\Jormungandr.DataAccess.csproj", "{5CDA2469-C311-492C-86C4-503B6B603C8B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{14E0164A-48D8-49BB-BD94-30170868DE97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14E0164A-48D8-49BB-BD94-30170868DE97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14E0164A-48D8-49BB-BD94-30170868DE97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26AD5D1-C253-40E7-BFD2-F63247F327FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26AD5D1-C253-40E7-BFD2-F63247F327FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26AD5D1-C253-40E7-BFD2-F63247F327FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26AD5D1-C253-40E7-BFD2-F63247F327FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BDEED74-67D7-48E1-B811-57B67357658A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDEED74-67D7-48E1-B811-57B67357658A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDEED74-67D7-48E1-B811-57B67357658A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDEED74-67D7-48E1-B811-57B67357658A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CDA2469-C311-492C-86C4-503B6B603C8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CDA2469-C311-492C-86C4-503B6B603C8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CDA2469-C311-492C-86C4-503B6B603C8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CDA2469-C311-492C-86C4-503B6B603C8B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
